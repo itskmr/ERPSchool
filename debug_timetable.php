@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // Define base URL for the application
-define('BASE_URL', 'http://localhost:8080/');
+define('BASE_URL', 'https://${RAILWAY_PUBLIC_DOMAIN}/');
 
 echo "=== Timetable Debug Tool ===\n\n";
 
