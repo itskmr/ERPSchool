@@ -16,7 +16,7 @@ services:
     environment:
       # Ensure CodeIgniter uses the correct base URL inside the container
       # Adjust if your actual domain differs when running locally
-      CODEIGNITER_BASE_URL: http://localhost:8080/
+      CODEIGNITER_BASE_URL: https://${RAILWAY_PUBLIC_DOMAIN}/
 
   db:
     image: mysql:8.0
